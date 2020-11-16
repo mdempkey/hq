@@ -339,6 +339,11 @@ function gamOvr(){
 	f.classList.add("none");
 	n.classList.add("none");
 	o.classList.add("none");
+	h.classList.add("none");
+	j.classList.add("none");
+	i.classList.add("none");
+	hoverArea.classList.add("none");
+	document.body.style.backgroundImage = "url(images/lostit.png)";
 	l.addEventListener("click", function() {location.reload();})
 }
 }
