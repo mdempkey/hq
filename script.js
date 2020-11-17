@@ -86,58 +86,57 @@ checkWrong();
 Timer();
 }
 
-
 function checkBats(){
 	if (a.getAttribute("src") == "images/bats.png")
 	{a.addEventListener("click", function() {
 		a.classList.remove("pulse");
 	h.src="images/winlogo1.png";
-	youWin();
+	setTimeout(function(){ youWin() }, 3000);
 	
 }); }
 	else if (b.getAttribute("src") == "images/bats.png")
 	{b.addEventListener("click", function() {
 	b.classList.remove("pulse");
 	h.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000); 
 	
 }); }
 	else if (c.getAttribute("src") == "images/bats.png")
 	{c.addEventListener("click", function() {
 	c.classList.remove("pulse");
 	h.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000);
 	
 }); }
 	else if (d.getAttribute("src") == "images/bats.png")
 	{d.addEventListener("click", function() {
 	d.classList.remove("pulse");
 	h.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000); 
 }); }
 	else if (e.getAttribute("src") == "images/bats.png")
 	{e.addEventListener("click", function() {
 	e.classList.remove("pulse");
 	h.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000); 
 }); }
 	else if (f.getAttribute("src") == "images/bats.png")
 	{f.addEventListener("click", function() {
 	f.classList.remove("pulse");
 	h.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000); 
 }); }
 	else if (n.getAttribute("src") == "images/bats.png")
 	{n.addEventListener("click", function() {
 	n.classList.remove("pulse");
 	h.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000); 
 }); }
 	else if (o.getAttribute("src") == "images/bats.png")
 	{o.addEventListener("click", function() {
 	o.classList.remove("pulse");
 	h.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000);
 }); }
 }
 
@@ -146,49 +145,49 @@ function checkRob(){
 	{a.addEventListener("click", function() {
 	a.classList.remove("pulse");
 	i.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000);
 }); }
 	else if (b.getAttribute("src") == "images/robin.png")
 	{b.addEventListener("click", function() {
 	b.classList.remove("pulse");
 	i.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000); 
 }); }
 	else if (c.getAttribute("src") == "images/robin.png")
 	{c.addEventListener("click", function() {
 	c.classList.remove("pulse");
 	i.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000); 
 }); }
 	else if (d.getAttribute("src") == "images/robin.png")
 	{d.addEventListener("click", function() {
 	d.classList.remove("pulse");
 	i.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000); 
 }); }
 	else if (e.getAttribute("src") == "images/robin.png")
 	{e.addEventListener("click", function() {
 	e.classList.remove("pulse");
 	i.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000); 
 }); }
 	else if (f.getAttribute("src") == "images/robin.png")
 	{f.addEventListener("click", function() {
 	f.classList.remove("pulse");
 	i.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000);
 }); }
 	else if (n.getAttribute("src") == "images/robin.png")
 	{n.addEventListener("click", function() {
 	n.classList.remove("pulse");
 	i.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000); 
 }); }
 	else if (o.getAttribute("src") == "images/robin.png")
 	{o.addEventListener("click", function() {
 	o.classList.remove("pulse");
 	i.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000); 
 }); }
 }
 
@@ -197,49 +196,49 @@ function checkCroc(){
 	{a.addEventListener("click", function() {
 	a.classList.remove("pulse");
 	j.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000); 
 }); }
 	else if (b.getAttribute("src") == "images/croc.png")
 	{b.addEventListener("click", function() {
 	b.classList.remove("pulse");
 	j.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000); 
 }); }
 	else if (c.getAttribute("src") == "images/croc.png")
 	{c.addEventListener("click", function() {
 	c.classList.remove("pulse");
 	j.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000); 
 }); }
 	else if (d.getAttribute("src") == "images/croc.png")
 	{d.addEventListener("click", function() {
 	d.classList.remove("pulse");
 	j.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000); 
 }); }
 	else if (e.getAttribute("src") == "images/croc.png")
 	{e.addEventListener("click", function() {
 	e.classList.remove("pulse");
 	j.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000);
 }); }
 	else if (f.getAttribute("src") == "images/croc.png")
 	{f.addEventListener("click", function() {
 	f.classList.remove("pulse");
 	j.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000);
 }); }
 	else if (n.getAttribute("src") == "images/croc.png")
 	{n.addEventListener("click", function() {
 	n.classList.remove("pulse");
 	j.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000);
 }); }
 	else if (o.getAttribute("src") == "images/croc.png")
 	{o.addEventListener("click", function() {
 	o.classList.remove("pulse");
 	j.src="images/winlogo1.png";
-	youWin(); 
+	setTimeout(function(){ youWin() }, 3000); 
 }); }
 }
 
@@ -251,49 +250,49 @@ function checkWrong(){
 	{a.addEventListener("click", function() {
 		a.classList.add("blink-image");
 		y++;
-		gamOvr();
+		setTimeout(function(){ gamOvr() }, 3000);
 }); }
 	if ((b.getAttribute("src") == "images/scare.png")||(b.getAttribute("src")=="images/legojoker.png") ||(b.getAttribute("src")=="images/batgirl.png")||(b.getAttribute("src")=="images/catwomen.png")||(b.getAttribute("src")=="images/clayface.png"))
 	{b.addEventListener("click", function() {
 		b.classList.add("blink-image");
 		y++;
-		gamOvr();
+		setTimeout(function(){ gamOvr() }, 3000);
 }); }
 	if ((c.getAttribute("src") == "images/scare.png")||(c.getAttribute("src")=="images/legojoker.png") ||(c.getAttribute("src")=="images/batgirl.png")||(c.getAttribute("src")=="images/catwomen.png")||(c.getAttribute("src")=="images/clayface.png"))
 	{c.addEventListener("click", function() {
 		c.classList.add("blink-image");
 		y++;
-		gamOvr();
+		setTimeout(function(){ gamOvr() }, 3000);
 }); }
 	if ((d.getAttribute("src") == "images/scare.png")||(d.getAttribute("src")=="images/legojoker.png") ||(d.getAttribute("src")=="images/batgirl.png")||(d.getAttribute("src")=="images/catwomen.png")||(d.getAttribute("src")=="images/clayface.png"))
 	{d.addEventListener("click", function() {
 		d.classList.add("blink-image");
 		y++;
-		gamOvr();
+		setTimeout(function(){ gamOvr() }, 3000);
 }); }
 	if ((e.getAttribute("src") == "images/scare.png")||(e.getAttribute("src")=="images/legojoker.png") ||(e.getAttribute("src")=="images/batgirl.png")||(e.getAttribute("src")=="images/catwomen.png")||(e.getAttribute("src")=="images/clayface.png"))
 	{e.addEventListener("click", function() {
 		e.classList.add("blink-image");
 		y++;
-		gamOvr();
+		setTimeout(function(){ gamOvr() }, 3000);
 }); }
 	if ((f.getAttribute("src") == "images/scare.png")||(f.getAttribute("src")=="images/legojoker.png") ||(f.getAttribute("src")=="images/batgirl.png")||(f.getAttribute("src")=="images/catwomen.png")||(f.getAttribute("src")=="images/clayface.png"))
 	{f.addEventListener("click", function() {
 		f.classList.add("blink-image");
 		y++;
-		gamOvr();
+		setTimeout(function(){ gamOvr() }, 3000);
 }); }
 	if ((n.getAttribute("src") == "images/scare.png")||(n.getAttribute("src")=="images/legojoker.png") ||(n.getAttribute("src")=="images/batgirl.png")||(n.getAttribute("src")=="images/catwomen.png")||(n.getAttribute("src")=="images/clayface.png"))
 	{n.addEventListener("click", function() {
 		n.classList.add("blink-image");
 		y++;
-		gamOvr();
+		setTimeout(function(){ gamOvr() }, 3000);
 }); }
 	if ((o.getAttribute("src") == "images/scare.png")||(o.getAttribute("src")=="images/legojoker.png") ||(o.getAttribute("src")=="images/batgirl.png")||(o.getAttribute("src")=="images/catwomen.png")||(o.getAttribute("src")=="images/clayface.png"))
 	{o.addEventListener("click", function() {
 		o.classList.add("blink-image");
 		y++;
-		gamOvr();
+		setTimeout(function(){ gamOvr() }, 3000);
 }); }
 }
 
@@ -320,6 +319,7 @@ function youWin(){
 	n.classList.add("none");
 	o.classList.add("none");
 	l.src="images/harlivy.png";
+	l.removeAttribute("onclick");
 	}
 }
 
