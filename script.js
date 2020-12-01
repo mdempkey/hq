@@ -326,7 +326,7 @@ function youWin(){
 
 function gamOvr(){
 	if(y==3){
-	l.src="images/bharley.png";
+	l.src="images/bharley.gif";
 	l.classList.add("hvr-bob");
 	x.classList.remove("none");
 	x.autoplay = true;
